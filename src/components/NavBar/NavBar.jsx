@@ -47,7 +47,7 @@ const NavBar = () => {
                   links.map((link,index) => {
                     return (
                       <motion.div className='link' key={index + link}>
-                           <a href={`#${link.id}`}>{link.name}</a>
+                           <a href={`#${link.id}`} >{link.name}</a>
                       </motion.div>
                     )
                   

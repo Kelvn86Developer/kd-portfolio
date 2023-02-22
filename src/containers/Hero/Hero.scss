@@ -4,7 +4,10 @@ $opacity-1: 0.8;
 $opacity-2: 0.9;
 $opacity-3: 0.5;
 $btn-color-1: #22202F;
-
+#home {
+    height: 110vh !important;
+    overflow: hidden;
+}
 .namesSocialBtn {
     margin-top: 30px;
     display: flex;
@@ -94,20 +97,23 @@ $btn-color-1: #22202F;
 
 
 .profilePic {
+    margin-top: -85px;
     display: flex;
     position: relative;
     width: 65%;
-
+    align-items: center;
     overflow: hidden;
+  
 
 
 
     img {
       width: 100%;
-      object-fit: contain;
-      height: 80%;
-     
-    }
+      object-fit: cover;
+      height: 90%;
+      filter: brightness(0.74);
+      -webkit-filter: brightness(0.74);
+}
 }
 
 .intro {
@@ -130,19 +136,22 @@ $btn-color-1: #22202F;
         color: $color-white-1;
         opacity: $opacity-1;
         margin-top: 10px;
+        margin-bottom: 10px;
         
     }
 
     p.bold {
         font-size: 20px;
         font-weight: bold;
-        margin-top: 0;
+        margin-top: 10px;
+        margin-bottom: 0px;
        
     }
 
     .line.left {
         display: flex;
         align-self: flex-end;
+        margin-top: 10px;
     }
     
     a {
@@ -197,9 +206,11 @@ $btn-color-1: #22202F;
                     height: 3vh;
                     font-size: .8rem;
                     padding: .2rem .6rem;
+                   
             
                     a {
                         text-align: center;
+                    
                     }
                 }
 

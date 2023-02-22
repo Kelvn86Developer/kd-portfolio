@@ -19,7 +19,7 @@ const Skills = () => {
     },
     {
       year: '2020-2021',
-      lang: 'PHP,MySQL',
+      lang: 'PHP,MySQL and MongoDB',
       type: 'Back-end developer'
     },
     {
@@ -29,7 +29,7 @@ const Skills = () => {
     },
     {
       year: 'current',
-      lang: 'ReactJS & MaterialUI, Node.js',
+      lang: 'ReactJS & MaterialUI, Node.js & PostgreSQL',
       type: 'Full-stack developer'
     }
   ]
@@ -37,8 +37,8 @@ const Skills = () => {
     <>
     <div className="heading">
       <p>Skills and Experience</p>
-      <h2>What i have gained from building projects</h2>
-      <h3> Coding with DRY, Maintainability and fewer lines of codes for reusable codes</h3>
+      <h2>What i have gained through building projects</h2>
+      <h3>All skills are in intermediate level</h3>
     </div>
 
     <div className="skills-card">

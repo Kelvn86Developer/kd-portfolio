@@ -78,7 +78,7 @@ const Works = () => {
     <div className="heading">
         <p>Works</p>
         <h2>My masterpiece collection</h2>
-        <h3>The following are some of What i have done for my clients and for my training</h3>
+        <h3>Development done with consideration of all principles and standards of designing and writing codes</h3>
     </div>
 
     <div className="app__work-filter">

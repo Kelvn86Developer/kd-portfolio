@@ -41,11 +41,11 @@ const Hero = () => {
           <motion.div className="intro" whileInView={{x:[-100, 0], opacity: [0,0.5,1]}} transition={{duration: 0.9, delay:1}}>
               <span className="header">Introduction</span>
               <span className='line'></span>
-              <p>I am a </p>
-              <p className="bold">Full-stack web developer, UI/UX designer</p>
+              <p className="bold">I full-stack developer</p>
+              <p>I Design and Develop Personal website, Social website, E-commerce website, Event website and Business website</p>
               <span className='line left'></span>
 
-              <a href="#works">See my works  <AiOutlineArrowDown/></a>
+              <a href="#work">See my works  <AiOutlineArrowDown/></a>
           </motion.div>
       </div>
 

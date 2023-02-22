@@ -1,9 +1,9 @@
-import about01 from '../assets/views/about01.png'
-import about02 from '../assets/views/about02.png'
-import about03 from '../assets/views/about03.png'
-import about04 from '../assets/views/about04.png'
-import about05 from '../assets/views/about05.png'
-import about06 from '../assets/views/about06.png'
+import about01 from '../assets/views/react.png'
+import about02 from '../assets/views/html.png'
+import about03 from '../assets/views/figma.png'
+import about04 from '../assets/views/mobile.png'
+import about05 from '../assets/views/node.png'
+import about06 from '../assets/views/mu5.png'
 
 
 export default {

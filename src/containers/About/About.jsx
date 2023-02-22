@@ -10,36 +10,28 @@ import './About.scss'
 const About = () => {
 
   const bouts = [
+   
     {
-      title: 'Website developer', description: 'I am a good web developer', imgUrl: views.about04
+      title: 'Back end development', description: 'I am a good web back-end developer experienced in NodeJS,PHP,laravel and mySQL', imgUrl: views.about05
     },
     {
-      title: 'Back end development', description: 'I am a good back end developer', imgUrl: views.about05
+      title: 'Front end development', description: 'I am a good web front-end developer experienced in reactJS, nextJS, html,css and sass', imgUrl: views.about01
     },
     {
-      title: 'Front end development', description: 'I am a good front end developer', imgUrl: views.about03
+      title: 'Website design', description: 'I am a good website design for any type of website such as business website, personal website, e-commerce and portfolio', imgUrl: views.about03
     },
     {
-      title: 'Website animations', description: 'I am a good web developer', imgUrl: views.about01
-    },
-  
-    {
-      title: 'Website design', description: 'I am a good web developer', imgUrl: views.about02
-    },
-    {
-      title: 'UI/UX design', description: 'I am a good web developer', imgUrl: views.about06
+      title: 'UI/UX design', description: 'I am a good UI/UX designer for mobile apps such as social media apps, e-commerce app and educational app', imgUrl: views.about06
     },
   
   ];
-
-  
 
   return (
     <>
     <motion.div className="heading" whileInView={{opacity: [0,1]}} transition={{duration: 1, delayChildren:0.9}}>
     <p>About</p>
     <h2>I sleep at peace when i have no bugs</h2>
-    <h3> I code for my brain and my heart</h3>
+    <h3>Satisfying your demand and on-time delivery with good code product is my desire</h3>
     </motion.div>
 
 
